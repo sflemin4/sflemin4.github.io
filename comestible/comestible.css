@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+}
+body {
+	width: 100%;
+	margin: auto;
+}
+
+header {
+	margin: auto;
+	background-color: #eaeaea;
+}
+nav {
+	
+	margin: 0 auto;
+	height: 75px;
+	width: 960px;
+}
+
+nav ul li {
+	display: inline-block;
+	font-family: futura-pt, sans-serif;
+	color: #236035;
+	font-weight: 600;
+	font-size: 16px;
+	margin: 20px;
+	margin-top: 30px;
+}
+
+h1 {
+	text-align: center;
+	font-family:  didot;
+	font-size: 45px;
+	position: relative;
+	top: 70px;
+}
+h2 {
+	font-family: didot;
+	font-size: 30px;
+	position: relative;
+	left: 500px;
+	top: 150px;
+	width: 500px;
+}
+main p {
+	right: 150px;
+	top: 160px;
+	position: relative;
+	font-family: futura-pt, sans-serif;
+	width:500px;
+	float: right;
+}
+
+#colors {
+	position: relative;
+	top: 150px;
+}
+
+#colors div {
+	width: 50px;
+	height: 20px;
+	position: relative;
+	top: 250px;
+	display: inline-block;
+	left: 300px; 
+	margin: 5px;
+}
+
+#polish {
+	height: 200px;
+	float: left;
+	position: relative;
+	top: 185px;
+	left: 350px;
+}
+
+
+/*series 1*/
+#ribollita {
+	background-color: rgba(137,33,1,1.00);
+}
+#puttanesca {
+	background-color: rgba(255,0,4,1.00);
+}
+#sisterslaw {
+	background-color: #fb42c0;
+}
+#colcannon {
+	background-color: rgba(255,245,207,1.00);
+}
+#floweringkale {
+	background-color: rgba(82,0,122,1.00);
+}
+#sauteed {
+	background-color: rgba(0,47,14,1.00);
+}
+

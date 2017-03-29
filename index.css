@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+}
+h1 {
+	text-align: center;
+	font-family:  didot;
+	font-size: 60px;
+	position: relative;
+	top: 250px;
+	color: white;
+	
+	
+}
+body {
+	width: 100%;
+	margin: auto;
+	background-image: url(kalebg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+header {
+	margin: auto;
+	background-color: #eaeaea;
+}
+nav {
+	
+	margin: 0 auto;
+	height: 75px;
+	width: 960px;
+}
+
+
+nav ul li {
+	display: inline-block;
+	font-family: futura-pt, sans-serif;
+	color: #236035;
+	font-weight: 600;
+	font-size: 16px;
+	margin: 20px;
+	margin-top: 30px;
+}
+
+
