@@ -21,6 +21,7 @@ body {
 	background-image: url(kalebg.jpg);
 	background-size: cover;
 	background-attachment: fixed;
+	height: 500px;
 }
 
 header {
@@ -45,8 +46,9 @@ nav ul li {
 	color: #236035;
 	font-weight: 600;
 	font-size: 16px;
-	margin: 20px;
-	margin-top: 30px;
+	margin: 51px;
+	margin-top: 25px;
 }
+
 
 

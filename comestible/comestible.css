@@ -24,15 +24,14 @@ nav a {
 	text-decoration: none;
 	color: #236035;
 }
-
 nav ul li {
 	display: inline-block;
 	font-family: futura-pt, sans-serif;
 	color: #236035;
 	font-weight: 600;
 	font-size: 16px;
-	margin: 20px;
-	margin-top: 30px;
+	margin: 51px;
+	margin-top: 25px;
 }
 
 h1 {
@@ -46,12 +45,15 @@ h2 {
 	font-family: didot;
 	font-size: 30px;
 	position: relative;
-	left: 500px;
+	float: right;
 	top: 150px;
 	width: 500px;
 }
+main {
+	width: 960px;
+	margin: 0 auto;
+}
 main p {
-	right: 150px;
 	top: 160px;
 	position: relative;
 	font-family: futura-pt, sans-serif;
@@ -60,17 +62,16 @@ main p {
 }
 
 #colors {
-	position: relative;
-	top: 150px;
+	width: 960px;
 }
 
 #colors div {
 	width: 50px;
 	height: 20px;
 	position: relative;
-	top: 250px;
+	top: 400px;
 	display: inline-block;
-	left: 300px; 
+	left: 20%px; 
 	margin: 5px;
 }
 
@@ -79,11 +80,11 @@ main p {
 	float: left;
 	position: relative;
 	top: 185px;
-	left: 350px;
+	left: 22%;
 }
 
 
-/*series 1*/
+/*series 2*/
 #ribollita {
 	background-color: rgba(137,33,1,1.00);
 }

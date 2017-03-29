@@ -40,8 +40,8 @@ nav ul li {
 	color: #236035;
 	font-weight: 600;
 	font-size: 16px;
-	margin: 20px;
-	margin-top: 30px;
+	margin: 51px;
+	margin-top: 25px;
 }
 main p {
 	font-family: futura-pt, sans-serif;
@@ -49,16 +49,20 @@ main p {
 	
 }
 main {
+	width: 960px;
+	margin: 0 auto;
+}
+aside {
 	float: right;
 	position: relative;
-	right: 200px;
+	right: 5%;
 	top: 150px;
 }
 
 #pictures {
 	position: relative;
 	top: 100px;
-	left: 300px;
+	left: 10%;
 	float: left;
 }
 
