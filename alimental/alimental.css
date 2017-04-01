@@ -76,11 +76,14 @@ main p {
 }
 
 #polish {
-	height: 200px;
+	height: 430px;
+	width: 166.6px;
 	float: left;
 	position: relative;
 	top: 185px;
 	left: 22%;
+	background-image: url('alimental.png');
+	background-size: cover;
 }
 
 

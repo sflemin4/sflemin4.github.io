@@ -1,42 +1,50 @@
 <!doctype html>
 <html>
-<head>
-<script src="https://use.typekit.net/cfa2nrj.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
-<meta charset="UTF-8">
-<title>Alimental Collection</title>
-<link href="alimental.css" rel="stylesheet" type="text/css">
-</head>
+	<head>
+		<script src="https://use.typekit.net/cfa2nrj.js"></script>
+		<script>try{Typekit.load({ async: true });}catch(e){}</script>
+		<meta charset="UTF-8">
+		<title>Alimental Collection</title>
+		<link href="alimental.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="../jquery.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('#colors div').each(function(i) {
+					var colorIndex = i;
+					$(this).hover(function() {
+						$("#polish").css({
+							backgroundPositionX: (-100 * colorIndex).toString() + "%"
+						});
+					});
+				});
+			});
+		</script>
+	</head>
 
-<body>
-	<header>
+	<body>
+		<header>
+			<nav>
+				<ul type="none">
+					<li><a href="../index.html"><img src="../logo.png" width="50px"></a></li><li><a href="../about/about.html">ABOUT</a></li><li><a href="../shop/shop.html">SHOP</a></li><li>LOCATIONS</li><li>CONTACT</li><li>CART</li>
+				</ul>
+			</nav>
+		</header>
 
-		<nav>
-			<ul type="none">
-				<li><a href="../index.html"><img src="../logo.png" width="50px"></a></li><li><a href="../about/about.html">ABOUT</a></li><li><a href="../shop/shop.html">SHOP</a></li><li>LOCATIONS</li><li>CONTACT</li><li>CART</li>
-			</ul>
-		</nav>
-
-	</header>
-
-	<main>
-	<img id="polish" src="polish.jpg">
-	
-		<h1>ALIMENTAL  COLLECTION</h1>
-		<h2>About this collection</h2>
-		<p>Kale contains nearly twice the amount of vitamin K as most other vegetables found within the cruciferous or cabbage family.  Vitamin K plays an important role in bone health, so our collection is extremely beneficial to strengthening nails and keeping them tough like bones.  These beautiful colors presented within our collection our based on the beneficial nutrients found in kale.
- 		</p>
- 
- 	<div id="colors">
-		<div id="betacarotene"></div>
-		<div id="brassica"></div>
-		<div id="riboflavin"></div>
-		<div id="niacin"></div>
-		<div id="folate"></div>
-		<div id="pantothenic"></div>
-	</div>
-	</main>
-
-
-</body>
+		<main>
+			<div id="polish"></div>
+			<h1>ALIMENTAL  COLLECTION</h1>
+			<h2>About this collection</h2>
+			<p>
+				Kale contains nearly twice the amount of vitamin K as most other vegetables found within the cruciferous or cabbage family.  Vitamin K plays an important role in bone health, so our collection is extremely beneficial to strengthening nails and keeping them tough like bones.  These beautiful colors presented within our collection our based on the beneficial nutrients found in kale.
+			</p>
+			<div id="colors">
+				<div id="betacarotene"></div>
+				<div id="brassica"></div>
+				<div id="riboflavin"></div>
+				<div id="niacin"></div>
+				<div id="folate"></div>
+				<div id="pantothenic"></div>
+			</div>
+		</main>
+	</body>
 </html>

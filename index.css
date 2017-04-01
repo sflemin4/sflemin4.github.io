@@ -50,5 +50,50 @@ nav ul li {
 	margin-top: 25px;
 }
 
+/*
+#container {
+	margin: 0 auto;
+	background-color: #eaeaea;
+	top: 500px;
+	clear: left;
+	
+}
+*/
+/*
+footer {
+	margin: 0 auto;
+	
+	width: 960px;
+	text-align: center;
+}
+*/
+
+html, body {
+       margin:0;
+       padding:0;
+       height:100%;
+    }
+    #container {
+       min-height:100%;
+       position:relative;
+    }
+    footer{
+        background:#eaeaea;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        height:50px;
+		
+    }
+
+
+    footer p {
+        text-align: center;
+		padding-top: 15px;
+		font-family: futura-pt, sans-serif;
+		color: gray;
+    }
+
 
 
