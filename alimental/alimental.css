@@ -104,6 +104,11 @@ main p {
 	background-color: rgba(201,0,3,1.00);
 }
 
+aside {
+	position: relative;
+	top: 75px;
+}
+
 
 html, body {
        margin:0;
@@ -131,4 +136,5 @@ html, body {
 		font-family: futura-pt, sans-serif;
 		color: gray;
     }
+
 
