@@ -8,6 +8,7 @@
 body {
 	width: 100%;
 	margin: auto;
+	height: 100%;
 }
 
 header {
@@ -35,11 +36,11 @@ nav ul li {
 }
 
 h1 {
-	text-align: center;
+	
 	font-family:  didot;
 	font-size: 45px;
-	position: relative;
-	top: 70px;
+	padding-top: 70px;
+	
 }
 h2 {
 	font-family: didot;
@@ -49,19 +50,19 @@ h2 {
 	float: right;
 	top: 150px;
 */
-	width: 500px;
+	
 }
-main {
-	width: 960px;
-	margin: 0 auto;
-}
+
 main p {
 /*
 	top: 160px;
 	position: relative;
 */
 	font-family: futura-pt, sans-serif;
-	width:500px;
+	width:430px;
+	 text-align: justify;
+    text-justify: inter-word;
+	padding-right:0;
 	
 }
 
@@ -77,10 +78,20 @@ main p {
 #colors div {
 	width: 50px;
 	height: 20px;
-	
 	display: inline-block;
-	
 	margin: 5px;
+	margin-top: 10px;
+}
+
+main {
+	width: 960px;
+	margin: 0 auto;
+	height: 700px;
+}
+
+
+.main_header {
+	text-align: center;
 }
 
 #polish {
@@ -88,11 +99,21 @@ main p {
 	width: 166.6px;
 	float: left;
 	position: relative;
-	top: 185px;
-	left: 22%;
+	top: 50px;
+	margin-left: 100px;
+/*	left: 22%;*/
 	background-image: url('alimental.png');
 	background-size: cover;
+	
 }
+
+aside {
+	padding-top: 200px;
+	float: right;
+	
+	padding-right: 100px;
+}
+
 
 
 /*series 1*/
@@ -115,28 +136,8 @@ main p {
 	background-color: rgba(201,0,3,1.00);
 }
 
-aside {
-	position: relative;
-	top: 200px;
-	height: 700px;
-	float: right;
-}
 
 
-html, body {
-       margin:0;
-       padding:0;
-       height:100%;
-    }
-
-/*
-    #container {
-       
-       position:relative;
-		height: 50px;
-		clear: both;
-    }
-*/
     footer{
         background:#eaeaea;
 /*        position: absolute;*/
