@@ -44,9 +44,11 @@ h1 {
 h2 {
 	font-family: didot;
 	font-size: 30px;
+/*
 	position: relative;
 	float: right;
 	top: 150px;
+*/
 	width: 500px;
 }
 main {
@@ -54,21 +56,30 @@ main {
 	margin: 0 auto;
 }
 main p {
+/*
 	top: 160px;
 	position: relative;
+*/
 	font-family: futura-pt, sans-serif;
 	width:500px;
-	float: right;
+	
 }
 
 
+#colors {
+	
+/*
+	position: relative;
+	top: 210px;
+*/
+	
+}
 #colors div {
 	width: 50px;
 	height: 20px;
-	position: relative;
-	top: 310px;
+	
 	display: inline-block;
-	left: 30%; 
+	
 	margin: 5px;
 }
 
@@ -106,7 +117,9 @@ main p {
 
 aside {
 	position: relative;
-	top: 75px;
+	top: 200px;
+	height: 700px;
+	float: right;
 }
 
 
@@ -115,18 +128,21 @@ html, body {
        padding:0;
        height:100%;
     }
+
+/*
     #container {
-       min-height:100%;
+       
        position:relative;
+		height: 50px;
+		clear: both;
     }
+*/
     footer{
         background:#eaeaea;
-        position: absolute;
-        bottom: 0px;
-        left: 0px;
+/*        position: absolute;*/
         width: 100%;
         height:50px;
-		
+		clear: both;
     }
 
 
