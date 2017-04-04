@@ -16,6 +16,7 @@
 						$("#polish").css({
 							backgroundPositionX: (-100 * colorIndex).toString() + "%"
 						});
+						$("#color-name").text($(this).attr("data-name"));
 					});
 				});
 			});
@@ -48,14 +49,14 @@
 				</p>
 			
 			<div id="colors">
-				<div id="betacarotene"></div>
-				<div id="brassica"></div>
-				<div id="riboflavin"></div>
-				<div id="niacin"></div>
-				<div id="folate"></div>
-				<div id="pantothenic"></div>
+				<div id="betacarotene" data-name="Beta Carotene"></div>
+				<div id="brassica" data-name="Brassica"></div>
+				<div id="riboflavin" data-name="Riboflavin"></div>
+				<div id="niacin" data-name="Niacin"></div>
+				<div id="folate" data-name="Folate"></div>
+				<div id="pantothenic" data-name="Pantothenic"></div>
 			</div>
-			
+		 	<div id="color-name">Beta Carotene</div>
 		 </aside>
 		</main>
 		
