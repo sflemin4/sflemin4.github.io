@@ -50,8 +50,8 @@ main p {
 }
 main {
 	width: 960px;
-	height: 600px;
 	margin: 0 auto;
+	height: 600px;
 }
 aside {
 	float: right;
@@ -83,6 +83,11 @@ aside {
 	border-radius: 100px;
 }
 
+address a {
+	text-decoration: none;
+	color: black;
+}
+
  footer{
 	 	
         background:#eaeaea;
@@ -99,4 +104,5 @@ aside {
 		font-family: futura-pt, sans-serif;
 		color: gray;
     }
+
 

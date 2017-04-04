@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+<script src="https://use.typekit.net/cfa2nrj.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+<meta charset="UTF-8">
+<title>Kale Polish</title>
+<link href="locations.css" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpkbNBgS6ErzA-WwY6Jl_PAwej2JMlUDs"></script>		
+<!--   <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>-->
+        
+        <script type="text/javascript">
+            // When the window has finished loading create our google map below
+            google.maps.event.addDomListener(window, 'load', init);
+        
+            function init() {
+                var mapOptions = {
+                    zoom: 8,
+                    center: new google.maps.LatLng(37.78699, -122.49034), // New York
+
+                    styles: [{"featureType":"water","elementType":"geometry","stylers":[{"visibility":"on"},{"color":"#aee2e0"}]},{"featureType":"landscape","elementType":"geometry.fill","stylers":[{"color":"#abce83"}]},{"featureType":"poi","elementType":"geometry.fill","stylers":[{"color":"#769E72"}]},{"featureType":"poi","elementType":"labels.text.fill","stylers":[{"color":"#7B8758"}]},{"featureType":"poi","elementType":"labels.text.stroke","stylers":[{"color":"#EBF4A4"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"visibility":"simplified"},{"color":"#8dab68"}]},{"featureType":"road","elementType":"geometry.fill","stylers":[{"visibility":"simplified"}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"color":"#5B5B3F"}]},{"featureType":"road","elementType":"labels.text.stroke","stylers":[{"color":"#ABCE83"}]},{"featureType":"road","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#A4C67D"}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#9BBF72"}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"color":"#EBF4A4"}]},{"featureType":"transit","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"visibility":"on"},{"color":"#87ae79"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#7f2200"},{"visibility":"off"}]},{"featureType":"administrative","elementType":"labels.text.stroke","stylers":[{"color":"#ffffff"},{"visibility":"on"},{"weight":4.1}]},{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#495421"}]},{"featureType":"administrative.neighborhood","elementType":"labels","stylers":[{"visibility":"off"}]}]
+                };
+
+                var mapElement = document.getElementById('map');
+
+                var map = new google.maps.Map(mapElement, mapOptions);
+
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(38.33472, -123.05078),
+                    map: map,
+                    title: 'Lodi Kale Polish Boutique'
+                });
+				
+				 var marker = new google.maps.Marker({
+					position: new google.maps.LatLng(38.13205, -121.27394),
+                    map: map,
+                    title: 'Bodega Bay Kale Polish Boutique'
+                });
+				
+				 var marker = new google.maps.Marker({
+					position: new google.maps.LatLng(37.65039, -122.39782),
+                    map: map,
+                    title: 'South San Francisco Kale Polish Boutique'
+                });
+				
+				 var marker = new google.maps.Marker({
+					position: new google.maps.LatLng(37.76962, -122.44743),
+                    map: map,
+                    title: 'Haight-Ashbury Kale Polish Boutique'
+                });
+				
+				 var marker = new google.maps.Marker({
+					position: new google.maps.LatLng(37.78699, -122.49034),
+                    map: map,
+                    title: 'Sea Cliff Kale Polish Boutique'
+                });
+            }
+
+        </script>
+
+</head>
+
+<body>
+	<header>
+
+		<nav>
+			<ul type="none">
+				<li><a href="../index.html"><img src="../logo.png" width="50px"></a></li><li><a href="../about/about.html">ABOUT</a></li><li><a href="../shop/shop.html">SHOP</a></li><li><a href="../locations/locations.html">LOCATIONS</a></li><li><a href="../contact/contact.html">CONTACT</a></li><li><a href="../cart/cart.html">CART</a></li>
+			</ul>
+		</nav>
+
+	</header>
+
+	<main>
+		<h1>Locations</h1>
+		
+		<p>We currently have five locations in California.  </p>
+    
+		<div id="map"></div>
+		
+		
+<!--		<iframe src="https://www.google.com/maps/d/embed?mid=12xExckFc_lQn0wfDlnEYf5iLCYw&hl=en" width="640" height="480"></iframe>-->
+
+	
+	</main>
+
+<div id="container">
+	<footer>
+		<p>&copy Kale Polish 2017</p>
+	</footer>
+</div>
+
+</body>
+</html>

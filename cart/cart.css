@@ -12,12 +12,33 @@ h1 {
 	position: relative;
 	top: 70px;
 }
+
+h2 {
+	font: didot;
+	line-height: 50px;
+	width: 50px;
+}
+
 body {
 	width: 100%;
 	margin: auto;
 }
 
+table {
+	position: relative;
+	left: 100px;
+	bottom: 120px;	
+}
 
+th, td {
+    padding: 15px 60px 15px 60px;
+}
+th {
+	font-family: didot;
+}
+td {
+	font-family: futura-pt, sans serif;
+}
 
 
 header {
@@ -25,7 +46,6 @@ header {
 	background-color: #eaeaea;
 }
 nav {
-	
 	margin: 0 auto;
 	height: 75px;
 	width: 960px;
@@ -45,42 +65,53 @@ nav ul li {
 }
 main p {
 	font-family: futura-pt, sans-serif;
-	width: 500px;
-	
-}
+	}
 main {
 	width: 960px;
-	height: 600px;
+	height: 550px;
 	margin: 0 auto;
+	margin-bottom: 70px;
+
 }
 aside {
 	float: right;
+	margin-top: 100px;
+	margin-right: 50px;
+	background-color: #eaeaea;
+	padding: 20px 50px 20px 50px;	
+}
+#checkout:hover {
+	background-color: #B3B3B3;
+}
+
+#checkout {
+	background-color: #eaeaea;
+	float: right;
+	padding: 10px 30px 10px 30px;
 	position: relative;
-	right: 13%;
-	top: 150px;
+	top: 450px;
+	left: 165px;
 }
 
-#pictures {
-	position: relative;
-	top: 100px;
-	left: 10%;
-	float: left;
+#cart {
+	padding-top: 100px;
+	float: left
+	
 }
-
-#pictures img {
-	margin: 15px;
+#total {
+	border-top: 1px solid darkgray;
+	border-bottom: 1px solid darkgray;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
-
-#shawn {
-	width: 150px;
+.box {
+	width: 600px;
 	height: 150px;
-	border-radius: 100px;
+	border-top: 1px solid #eaeaea;
 }
-
-#lexi {
-	width: 150px;
-	height: 150px;
-	border-radius: 100px;
+.box img {
+	padding-top: 10px;
+	padding-left: 20px;
 }
 
  footer{
@@ -99,4 +130,6 @@ aside {
 		font-family: futura-pt, sans-serif;
 		color: gray;
     }
+
+
 
