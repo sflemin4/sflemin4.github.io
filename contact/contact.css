@@ -58,12 +58,13 @@ aside {
 	position: relative;
 	right: 13%;
 	top: 150px;
+	width:500px;
 }
 
 #pictures {
 	position: relative;
 	top: 100px;
-	left: 10%;
+	left: 13%;
 	float: left;
 }
 
@@ -72,8 +73,7 @@ aside {
 }
 
 #shawn {
-	width: 150px;
-	height: 150px;
+	
 	border-radius: 100px;
 }
 
