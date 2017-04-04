@@ -134,6 +134,20 @@ aside {
 	background-color: rgba(201,0,3,1.00);
 }
 
+#cart {
+	text-align: center;
+	font-family: futura-pt, sans-serif;
+	padding: 10px 30px 10px 30px;
+	width: 100px;
+	position: relative;
+	top: 10px;
+	background-color: #eaeaea;
+	
+
+}
+#cart:hover {
+	background-color: #B3B3B3;
+}
 
 
     footer{

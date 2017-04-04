@@ -1,42 +1,73 @@
+
 <!doctype html>
 <html>
-<head>
-<script src="https://use.typekit.net/cfa2nrj.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
-<meta charset="UTF-8">
-<title>Comestible Collection</title>
-<link href="comestible.css" rel="stylesheet" type="text/css">
-</head>
+	<head>
+		<script src="https://use.typekit.net/cfa2nrj.js"></script>
+		<script>try{Typekit.load({ async: true });}catch(e){}</script>
+		<meta charset="UTF-8">
+		<title>Comestible Collection</title>
+		<link href="comestible.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="../jquery.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('#colors div').each(function(i) {
+					var colorIndex = i;
+					$(this).hover(function() {
+						$("#polish").css({
+							backgroundPositionX: (-100 * colorIndex).toString() + "%"
+						});
+						$("#color-name").text($(this).attr("data-name"));
+					});
+				});
+			});
+		</script>
+	</head>
 
-<body>
-	<header>
+	<body>
+		<header>
 
 		<nav>
 			<ul type="none">
-				<li><a href="../index.html"><img src="../logo.png" width="50px"></a></li><li><a href="../about/about.html">ABOUT</a></li><li><a href="../shop/shop.html">SHOP</a></li><li>LOCATIONS</li><li>CONTACT</li><li>CART</li>
+				<li><a href="../index.html"><img src="../logo.png" width="50px"></a></li><li><a href="../about/about.html">ABOUT</a></li><li><a href="../shop/shop.html">SHOP</a></li><li><a href="../locations/locations.html">LOCATIONS</a></li><li><a href="../contact/contact.html">CONTACT</a></li><li><a href="../cart/cart.html">CART</a></li>
 			</ul>
 		</nav>
 
 	</header>
 
-	<main>
-	<img id="polish" src="polish.jpg">
-	
-		<h1>COMESTIBLE  COLLECTION</h1>
-		<h2>About this collection</h2>
-		<p>Kale contains nearly twice the amount of vitamin K as most other vegetables found within the cruciferous or cabbage family.  Vitamin K plays an important role in bone health, so our collection is extremely beneficial to strengthening nails and keeping them tough like bones.  These beautiful colors presented within our collection our based on the beneficial nutrients found in kale.
- 		</p>
- 
- 	<div id="colors">
-		<div id="ribollita"></div>
-		<div id="puttanesca"></div>
-		<div id="sisterslaw"></div>
-		<div id="colcannon"></div>
-		<div id="floweringkale"></div>
-		<div id="sauteed"></div>
-	</div>
-	</main>
-
-
-</body>
+		<main>
+		
+		  <div class="main_header">
+			<h1>COMESTIBLE  COLLECTION</h1>
+		  </div>
+			
+		  <div id="polish"></div>
+		
+		 <aside>
+			<h2>About this collection</h2>
+				<p>
+					Kale contains nearly twice the amount of vitamin K as most other vegetables found within the cruciferous or cabbage family.  Vitamin K plays an important role in bone health, so our collection is extremely beneficial to strengthening nails and keeping them tough like bones.  These beautiful colors presented within our collection our based on the beneficial nutrients found in kale.<br>$27
+				</p>
+			
+			<div id="colors">
+				<div id="Ribollita" data-name="Ribollita"></div>
+				<div id="Puttanesca" data-name="Puttanesca"></div>
+				<div id="sisterslaw" data-name="Sister Slaw"></div>
+				<div id="Colcannon" data-name="Colcannon"></div>
+				<div id="floweringkale" data-name="Flowering Kale"></div>
+				<div id="Sauteed" data-name="Sauteed"></div>
+			</div>
+		 	<div id="color-name">Ribollita</div>
+			 <div id="cart">Add to cart</div>
+		 	
+		 	
+		 </aside>
+		</main>
+		
+		
+<!--		<div id="container">-->
+	<footer>
+		<p>&copy Kale Polish 2017</p>
+	</footer>
+<!--	</div>-->
+	</body>
 </html>

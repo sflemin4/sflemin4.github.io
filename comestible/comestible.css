@@ -8,6 +8,7 @@
 body {
 	width: 100%;
 	margin: auto;
+	height: 100%;
 }
 
 header {
@@ -35,72 +36,137 @@ nav ul li {
 }
 
 h1 {
-	text-align: center;
+	
 	font-family:  didot;
 	font-size: 45px;
-	position: relative;
-	top: 70px;
+	padding-top: 70px;
+	
 }
 h2 {
 	font-family: didot;
 	font-size: 30px;
+/*
 	position: relative;
 	float: right;
 	top: 150px;
-	width: 500px;
+*/
+	
 }
-main {
-	width: 960px;
-	margin: 0 auto;
-}
+
 main p {
+/*
 	top: 160px;
 	position: relative;
+*/
 	font-family: futura-pt, sans-serif;
-	width:500px;
-	float: right;
+	width:430px;
+	 text-align: justify;
+    text-justify: inter-word;
+	padding-right:0;
+	
 }
+
 
 #colors {
-	width: 960px;
+	position: relative;
+	right: 5px;
+	
 }
-
 #colors div {
 	width: 50px;
 	height: 20px;
-	position: relative;
-	top: 400px;
 	display: inline-block;
-	left: 20%px; 
 	margin: 5px;
+	margin-top: 10px;
+}
+
+main {
+	width: 960px;
+	margin: 0 auto;
+	height: 700px;
+}
+
+
+.main_header {
+	text-align: center;
 }
 
 #polish {
-	height: 200px;
+	height: 430px;
+	width: 166.6px;
 	float: left;
 	position: relative;
-	top: 185px;
-	left: 22%;
+	top: 50px;
+	margin-left: 100px;
+/*	left: 22%;*/
+	background-image: url('comestible.png');
+	background-size: cover;
+	
+}
+
+aside {
+	padding-top: 170px;
+	float: right;
+	
+	padding-right: 100px;
 }
 
 
-/*series 2*/
-#ribollita {
-	background-color: rgba(137,33,1,1.00);
+
+/*series 1*/
+#Ribollita {
+	background-color: #87220b;
+	margin-left: 0;
 }
-#puttanesca {
-	background-color: rgba(255,0,4,1.00);
+#Puttanesca {
+	background-color: #fc0d1d;
 }
 #sisterslaw {
-	background-color: #fb42c0;
+	background-color: #f849bf;
 }
-#colcannon {
-	background-color: rgba(255,245,207,1.00);
+#Colcannon {
+	background-color: #fff4d1;
 }
 #floweringkale {
-	background-color: rgba(82,0,122,1.00);
+	background-color: #510c78;
 }
-#sauteed {
-	background-color: rgba(0,47,14,1.00);
+#Sauteed {
+	background-color: #022f10;
 }
 
+#cart {
+	text-align: center;
+	font-family: futura-pt, sans-serif;
+	padding: 10px 30px 10px 30px;
+	width: 100px;
+	position: relative;
+	top: 10px;
+	background-color: #eaeaea;
+	
+
+}
+#cart:hover {
+	background-color: #B3B3B3;
+}
+
+
+    footer{
+        background:#eaeaea;
+/*        position: absolute;*/
+        width: 100%;
+        height:50px;
+		clear: both;
+    }
+
+
+    footer p {
+        text-align: center;
+		padding-top: 15px;
+		font-family: futura-pt, sans-serif;
+		color: gray;
+    }
+
+
+#color-name {
+	font-family: 'Futura-PT', sans-serif;
+}
